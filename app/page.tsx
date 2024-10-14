@@ -1,5 +1,10 @@
 import Image from "next/image";
+import DragAndDrop from "./DragAndDrop";
 
 export default function Home() {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <DragAndDrop />
+    </>
+  );
 }

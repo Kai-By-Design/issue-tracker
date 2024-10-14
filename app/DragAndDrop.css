@@ -1,0 +1,47 @@
+.hero {
+  display: inline-block;
+  width: 100vw;
+  height: 60px;
+  background-color: red;
+  border: 1px solid black;
+  font-size: 2em;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  row-gap: 20px;
+  flex-grow: 1;
+}
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  background-color: salmon;
+  padding: 50px;
+}
+
+.rightColumn {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  background-color: rgb(201, 209, 157);
+}
+
+.draggableContainer {
+  flex-direction: column;
+}
+
+.item {
+  /* box-shadow: ; */
+  display: flex;
+  height: 50px;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+  text-orientation: sideways;
+  text-justify: auto;
+  /* text-align: ; */
+  background-color: darkgoldenrod;
+  color: black;
+  border-radius: 10px;
+}
