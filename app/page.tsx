@@ -1,10 +1,7 @@
 import Image from "next/image";
-import DragAndDrop from "./DragAndDrop";
+// import DragAndDrop from "./DragAndDrop";
+// import RootLayout from "./layout";
 
 export default function Home() {
-  return (
-    <>
-      <DragAndDrop />
-    </>
-  );
+  return <div>Hello World</div>;
 }
